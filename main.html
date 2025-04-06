@@ -1,16 +1,134 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            width: 1100px;
+            margin: 20px auto;
+            font-family: sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .imageContainer {
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: #ddd;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .imageContainer img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 3px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+
+        th {
+            background-color: #f0f0f0;
+        }
+
+        td img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            border-radius: 3px;
+        }
+
+        .column-200 {
+            width: 200px;
+        }
+
+        .column-600 {
+            width: 600px;
+        }
+
+        .section {
+            padding: 15px;
+        }
+
+        .section h3 {
+            color: #007bff;
+            margin-top: 0;
+        }
+
+        .section p {
+            margin-bottom: 10px;
+        }
+
+        .website-link {
+            color: #28a745;
+            text-decoration: none;
+        }
+
+        .website-link:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="imageContainer">
+        <img src="https://via.placeholder.com/1000x300/87CEEB/FFFFFF?Text=Conceptual+Architecture+Design" alt="Conceptual Architecture Design">
+    </div>
 
+    <table>
+        <tr>
+            <td class="column-200"><img src="https://via.placeholder.com/180x150/ADD8E6/000000?Text=Blueprint" alt="Blueprint"></td>
+            <td class="column-600">
+                <div class="section">
+                    <h3>The Importance of Floor Plans</h3>
+                    <p>Floor plans are fundamental to architectural design. They provide a visual representation of a building's layout, showing the arrangement of rooms, walls, doors, windows, and other structural elements. A well-designed floor plan optimizes space utilization, enhances functionality, and ensures a comfortable living or working environment.</p>
+                    <p>Factors to consider when designing floor plans include the intended use of each space, traffic flow, natural light and ventilation, and the overall aesthetic and functional requirements of the occupants.</p>
+                </div>
+            </td>
+            <td class="column-200"><img src="https://via.placeholder.com/180x150/90EE90/000000?Text=House+Icon" alt="House Icon"></td>
+        </tr>
+        <tr>
+            <td class="column-200"><img src="https://via.placeholder.com/180x150/FFA07A/FFFFFF?Text=Kitchen+Design" alt="Kitchen Design"></td>
+            <td class="column-600">
+                <div class="section">
+                    <h3>Designing Functional Kitchens</h3>
+                    <p>The kitchen is often considered the heart of a home. A functional kitchen design focuses on creating an efficient and enjoyable space for meal preparation and social interaction. Key considerations include the work triangle (sink, stove, refrigerator), ample counter space, sufficient storage solutions, and appropriate lighting.</p>
+                    <p>Selecting kitchen appliances that meet a family's needs and ensuring appropriate dimensions for comfortable movement are also crucial aspects of good kitchen design.</p>
+                </div>
+            </td>
+            <td class="column-200"><img src="https://via.placeholder.com/180x150/F08080/FFFFFF?Text=Appliances" alt="Appliances"></td>
+        </tr>
+        <tr>
+            <td class="column-200"><img src="https://via.placeholder.com/180x150/DDA0DD/FFFFFF?Text=Living+Space" alt="Living Space"></td>
+            <td class="column-600">
+                <div class="section">
+                    <h3>Creating Comfortable Living Areas</h3>
+                    <p>Living areas are designed for relaxation and social gatherings. Effective design principles for living rooms involve considering furniture arrangement to promote conversation and flow, integrating natural light, and creating a cohesive aesthetic through the use of materials, colors, and textures.</p>
+                    <p>Planning the service area of a home to meet a family's needs and integrating furniture thoughtfully within the living room are essential for creating a functional and inviting space.</p>
+                </div>
+            </td>
+            <td class="column-200"><img src="https://via.placeholder.com/180x150/BA55D3/FFFFFF?Text=Furniture" alt="Furniture"></td>
+        </tr>
+    </table>
+
+    <div style="text-align: center; margin-top: 20px;">
+        <p>&copy; 2025 Architecture Insights</p>
+    </div>
+
+    <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
